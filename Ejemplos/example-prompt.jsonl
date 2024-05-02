@@ -1,0 +1,3 @@
+{"genero": "fantasía", "escenario": "bosque encantado", "personajes": [{"nombre": "Pepe","tipo": "niño","rasgos": ["valiente", "curioso"],"rol": "principal","caracterstica_especial": ["volar", "hablar con los animales"]},{"nombre": "Pepita","tipo": "Hada","rasgos": ["inteligente", "amigable"],"rol": "secundario"}]}
+{"genero": "", "escenario": "", "personajes": [{"nombre": "","tipo": "","rasgos": ["", ""],"rol": "","caracterstica_especial": ["", ""]},{"nombre": "","tipo": "","rasgos": ["", ""],"rol": ""}]}
+{"genero": "terror", "escenario": "", "personajes": [{"nombre": "Zacarías Franco","tipo": "fantasma","rasgos": ["", ""],"rol": "principal","caracterstica_especial": ["", ""]},{"nombre": "Esposa de Zacarías","tipo": "humana","rasgos": ["", ""],"rol": "secundario"}]}

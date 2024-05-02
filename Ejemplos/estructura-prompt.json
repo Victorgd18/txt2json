@@ -1,0 +1,20 @@
+{
+  "genero": "fantasía",
+  "escenario": "bosque encantado",
+  "personajes": [
+    {
+      "nombre": "Pepe",
+      "tipo": "niño",
+      "rasgos": ["valiente", "curioso"],
+      "rol": "principal",
+      "caracterstica_especial": ["volar", "hablar con los animales"]
+    },
+    {
+      "nombre": "Pepita",
+      "tipo": "Hada",
+      "rasgos": ["inteligente", "amigable"],
+      "rol": "secundario"
+    }
+  ],
+  "longitud": "mediano"
+}
