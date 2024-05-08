@@ -1,0 +1,1 @@
+"{\"genero\": \"fábula\", \"escenario\": \"casa\", \"personajes\": [{\"nombre\": \"mercader\", \"tipo\": \"mercader\", \"rasgos\": [\"astuto\", \"desconfiado\"], \"rol\": \"principal\", \"caracteristica_especial\": []}, {\"nombre\": \"amigo\", \"tipo\": \"humano\", \"rasgos\": [\"mentiroso\"], \"rol\": \"principal\", \"caracteristica_especial\": []}], \"longitud\": \"corto\"}"

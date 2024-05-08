@@ -23,13 +23,13 @@ with open('./output.jsonl', 'w', encoding='utf-8') as output_file:
                 prompt = json.load(f)
 
             # Read the vocabulary from the corresponding .vocab.json file
-            with open(f'./Vocabularios/{title}.vocab.json', 'r', encoding='utf-8') as f:
-                vocabulario = json.load(f)
+            # with open(f'./Vocabularios/{title}.vocab.json', 'r', encoding='utf-8') as f:
+            #     vocabulario = json.load(f)
 
             # Create the JSON format
-            roleSystem = {"role": "system", "content": "Eres un generador de cuentos para niños en español que toma en cuenta un JSON con las características de un cuento y en base a ello genera un cuento creativo e interesante. Además primero pones el titulo del cuento luego inmediatamente el caracter '&', luego el cuento, luego otra vez el caracter '&' y finalmente el JSON de las 3 palabras complejas(con 3 sinonimos por cada palabra segun el contexto del cuento). En el JSON de las palabras complejas todo debe ir sin saltos de linea. Siguiendo el siguiente formato: TituloDelCuento&Cuento&JSONDeLas3PalabrasComplejas"}
+            roleSystem = {"role": "system", "content": "Eres un generador de cuentos para niños en español que toma en cuenta un JSON con las características de un cuento y en base a ello genera un cuento creativo e interesante. Además primero pones el titulo del cuento luego inmediatamente el caracter '&', y luego el cuento. Ejemplo: Titulo&TodoElcuento…"}
             roleUser = {"role": "user", "content": prompt}
-            roleAssistant = {"role": "assistant", "content": titleStory + '&' + cuento + '&' + vocabulario}
+            roleAssistant = {"role": "assistant", "content": titleStory + '&' + cuento}
             formato = {"messages": [roleSystem, roleUser, roleAssistant]}
             
             # Convert to JSON format
